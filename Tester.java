@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
-import java.util.DecimalFormat;
+import java.text.DecimalFormat;
 
 public class Tester{
   public static void main(String[]args){

@@ -31,21 +31,21 @@ public class Snowman extends Application{
     //Y of arms and body
     final int arms_bodyY = 95;
     //left fingers
-    final double fingerL1_1Y = 95.0;
-    final double fingerL1_2Y = 90.0
-    final double fingerL1_3Y = 100.0;
-    final double fingerL2_1Y =
-    final double fingerL2_2Y =
-    final double fingerL3_1Y =
-    final double fingerL3_2Y =
+    //final double fingerL1_1Y = 95.0;
+    //final double fingerL1_2Y = 90.0
+    //final double fingerL1_3Y = 100.0;
+   // final double fingerL2_1Y =
+   // final double fingerL2_2Y =
+   // final double fingerL3_1Y =
+  //  final double fingerL3_2Y =
     //right fingers
-    final double fingerR1_1 =
-    final double fingerR1_2 =
-    final double fingerR1_3 =
-    final double fingerR2_1 =
-    final double fingerR2_2 =
-    final double fingerR3_1 =
-    final double fingerR3_2 =
+   //final double fingerR1_1 =
+   // final double fingerR1_2 =
+   // final double fingerR1_3 =
+   // final double fingerR2_1 =
+   // final double fingerR2_2 =
+  //  final double fingerR3_1 =
+  //  final double fingerR3_2 =
     //body
     final int bodyR = 30;
     //lower body
@@ -87,8 +87,8 @@ public class Snowman extends Application{
     Circle leftEye = new Circle(lefteyeX, eyesY, eyesR);
     Circle rightEye = new Circle(righteyeX, eyesY, eyesR);
     Polygon nose = new Polygon();
-    Polygon leftFingers = new Polygon();
-    Polygon rightFingers = new Polygon();
+   // Polygon leftFingers = new Polygon();
+   // Polygon rightFingers = new Polygon();
     nose.getPoints().addAll(new Double[]{
       point1X, point1Y,
       point2X, point2_3Y,
